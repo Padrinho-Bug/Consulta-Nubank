@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consulta CPF - Nubank</title>
+  <link rel="icon" href="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-2.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-2.png" alt="Nubank" class="logo">
+    <h1>Consulta de CPF</h1>
+
+    <input type="text" id="cpf" placeholder="Digite seu CPF (somente números)">
+    
+    <div class="checkbox-container">
+      <input type="checkbox" id="consentimento"> Li e aceito a <a href="#">Política de Privacidade</a> e os <a href="#">Termos de Uso</a>
+    </div>
+
+    <button onclick="consultar()" id="btnConsultar" disabled>Consultar CPF</button>
+
+    <div id="resultado"></div>
+
+    <div class="termos">
+      © 2025 – Projeto demonstrativo inspirado no Nubank. Não oficial.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
